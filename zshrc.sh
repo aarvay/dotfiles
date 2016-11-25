@@ -20,3 +20,6 @@ antigen apply
 # Load asdf
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
+
+# Add Cargo installed bins to path
+export PATH=/Users/aarvay/.cargo/bin:$PATH
