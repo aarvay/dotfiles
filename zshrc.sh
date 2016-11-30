@@ -23,3 +23,6 @@ antigen apply
 
 # Add Cargo installed bins to path
 export PATH=/Users/aarvay/.cargo/bin:$PATH
+
+# My custom aliases
+alias em="emacsclient -nw"
