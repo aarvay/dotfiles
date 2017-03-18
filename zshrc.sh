@@ -25,4 +25,4 @@ antigen apply
 export PATH=/Users/aarvay/.cargo/bin:$PATH
 
 # My custom aliases
-alias em="emacsclient -nw"
+alias em="emacsclient -n -c"
