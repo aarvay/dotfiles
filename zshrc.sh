@@ -17,12 +17,8 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 # Tell antigen that you're done.
 antigen apply
 
-# Load asdf
-. $HOME/.asdf/asdf.sh
+# Load asdf completions
 . $HOME/.asdf/completions/asdf.bash
-
-# Add Cargo installed bins to path
-export PATH=/Users/aarvay/.cargo/bin:$PATH
 
 # My custom aliases
 alias em="emacsclient -n -c"
